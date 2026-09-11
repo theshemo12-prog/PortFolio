@@ -1,29 +1,50 @@
-# Portfolio
+# Omesh Giri — Portfolio
 
-A responsive personal portfolio for Omesh Giri, built with HTML, CSS and vanilla JavaScript.
+> A thoughtful, responsive portfolio for a software developer who enjoys turning ideas into useful digital experiences.
 
-## Included interactive projects
+This site is built with semantic HTML, modern CSS and dependency-free JavaScript. It is intentionally lightweight, easy to explore and ready to publish as a static site.
 
-- **Flowboard** &mdash; a local-first task board. Add a task and move it through the workflow; data persists in the browser using LocalStorage.
-- **Metricly** &mdash; a responsive analytics dashboard with reporting-period controls and a dependency-free SVG chart.
-- **Palette Lab** &mdash; a visual-direction tool that generates palette variations and copies hex values to the clipboard.
+## Highlights
 
-The projects are product concepts, created to demonstrate interface design, responsive development and practical browser interactions.
+- Responsive home, about and projects pages
+- Dark/light theme toggle and mobile navigation
+- Keyboard-friendly project filters and case-study modal
+- Interactive demos that work without a build step
+
+## Featured projects
+
+| Project | What it demonstrates | Demo |
+| --- | --- | --- |
+| **Flowboard** | Local-first task management with browser persistence | [`Open demo`](projects/flowboard/index.html) |
+| **Metricly** | Reporting-period controls and a dependency-free SVG chart | [`Open demo`](projects/metricly/index.html) |
+| **Palette Lab** | Palette generation and one-click hex-value copying | [`Open demo`](projects/palette-lab/index.html) |
 
 ## Run locally
 
-Open `index.html` in a browser. The three demos are available on the Projects page or directly at:
-
-- `projects/flowboard/index.html`
-- `projects/metricly/index.html`
-- `projects/palette-lab/index.html`
-
-No build tooling or package installation is required.
+No package installation or build tooling is required. Clone the repository and open [`index.html`](index.html) in a browser, or serve the folder with any static web server.
 
 ## Publish with GitHub Pages
 
-After pushing the repository, in GitHub open **Settings** &rarr; **Pages** and choose **Deploy from a branch**. Select the `main` branch and the `/ (root)` folder. GitHub will provide the public site URL.
+1. Push the repository to GitHub.
+2. Open **Settings → Pages**.
+3. Choose **Deploy from a branch**, select `main`, and use the `/ (root)` folder.
 
-## Customisation
+## Project structure
 
-Before sharing publicly, replace placeholder social links in `index.html` with the correct GitHub and LinkedIn profiles, and add a PDF to `assets/resume/` if a downloadable resume is needed.
+```text
+.
+├── index.html       # Landing page
+├── about.html       # About, education and contact
+├── projects.html    # Filterable project gallery
+├── css/             # Site styles and responsive rules
+├── js/              # Site and project interactions
+└── projects/        # Standalone interactive demos
+```
+
+## Personalise
+
+Update the social links and contact details in the HTML files before sharing publicly. If you want a downloadable resume, add the PDF at `assets/resume/Omesh-Giri-Resume.pdf`.
+
+## License
+
+This portfolio is a personal showcase. Reuse the ideas freely, but replace the personal content, images and branding with your own.
